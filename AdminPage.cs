@@ -73,7 +73,7 @@ namespace LibraryApplication
         {
             string name = txt_name.Text;
             string id = txt_id.Text;
-            string surname = txt_username.Text;
+            string surname = txt_surname.Text;
             string creation_time = masked_creation_time.Text;
             string username = txt_username.Text;
             string password = txt_password.Text;
