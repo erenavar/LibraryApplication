@@ -61,9 +61,9 @@ namespace LibraryApplication.Model
             return this.genre;
         }
 
-        public int amonut()
+        public int getAmonut()
         {
-            return this.amonut;
+            return this.amount;
         }
 
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibraryApplication.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,7 @@ namespace LibraryApplication
     public partial class Form1 : Form
     {
         List<Person> People = new List<Person>();
+        List<Book> Books = new List<Book>();
         public Form1()
         {
             InitializeComponent();
@@ -35,6 +37,9 @@ namespace LibraryApplication
             People.Add(new Person(4, "Robin", "SCHERBATSKY", DateTime.Now, "robin", "1", "user"));
             People.Add(new Person(5, "Chandler", "BING", DateTime.Now, "chandler", "1", "admin"));
 
+            Books.Add(new Book(1, "İçimizdeki Şeytan", "Sabahattin Ali", "Turkish", "YKY", "Novel",100));
+            Books.Add(new Book(2, "Tutunamayanlar", "Oğuz Atay", "Turkish", "Iletisim", "Novel", 200));
+            Books.Add(new Book(3, "Uçurtma Avcısı", "Khaled Hosseini", "Turkish", "Everest", "Nove", 240));
         }
 
         private void btn_login_Click(object sender, EventArgs e)
@@ -47,7 +52,7 @@ namespace LibraryApplication
                
                 if (username.ToLower() == item.getName().ToLower() && password == item.getPassword() && item.getAuthority() == "admin")
                 {
-                    AdminPage adminPage = new AdminPage(People);
+                    AdminPage adminPage = new AdminPage(People,Books);
                     adminPage.Show();
                     this.Hide();
                     control = true;
