@@ -84,6 +84,7 @@
             this.txt_book_name = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txt_lang = new System.Windows.Forms.TextBox();
+            this.btn_user_page_exit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -247,9 +248,9 @@
             // 
             // btn_update
             // 
-            this.btn_update.Location = new System.Drawing.Point(0, 759);
+            this.btn_update.Location = new System.Drawing.Point(0, 743);
             this.btn_update.Name = "btn_update";
-            this.btn_update.Size = new System.Drawing.Size(994, 52);
+            this.btn_update.Size = new System.Drawing.Size(1018, 52);
             this.btn_update.TabIndex = 10;
             this.btn_update.Text = "Update";
             this.btn_update.UseVisualStyleBackColor = true;
@@ -257,9 +258,9 @@
             // 
             // btn_clear
             // 
-            this.btn_clear.Location = new System.Drawing.Point(0, 686);
+            this.btn_clear.Location = new System.Drawing.Point(0, 670);
             this.btn_clear.Name = "btn_clear";
-            this.btn_clear.Size = new System.Drawing.Size(994, 52);
+            this.btn_clear.Size = new System.Drawing.Size(1018, 52);
             this.btn_clear.TabIndex = 9;
             this.btn_clear.Text = "Clear";
             this.btn_clear.UseVisualStyleBackColor = true;
@@ -337,9 +338,9 @@
             // 
             // btn_delete
             // 
-            this.btn_delete.Location = new System.Drawing.Point(0, 613);
+            this.btn_delete.Location = new System.Drawing.Point(0, 597);
             this.btn_delete.Name = "btn_delete";
-            this.btn_delete.Size = new System.Drawing.Size(994, 52);
+            this.btn_delete.Size = new System.Drawing.Size(1018, 52);
             this.btn_delete.TabIndex = 8;
             this.btn_delete.Text = "Delete";
             this.btn_delete.UseVisualStyleBackColor = true;
@@ -347,9 +348,9 @@
             // 
             // btn_add
             // 
-            this.btn_add.Location = new System.Drawing.Point(0, 544);
+            this.btn_add.Location = new System.Drawing.Point(0, 528);
             this.btn_add.Name = "btn_add";
-            this.btn_add.Size = new System.Drawing.Size(994, 52);
+            this.btn_add.Size = new System.Drawing.Size(1018, 52);
             this.btn_add.TabIndex = 7;
             this.btn_add.Text = "Add";
             this.btn_add.UseVisualStyleBackColor = true;
@@ -438,7 +439,7 @@
             // 
             // btn_add_book
             // 
-            this.btn_add_book.Location = new System.Drawing.Point(1060, 591);
+            this.btn_add_book.Location = new System.Drawing.Point(1060, 575);
             this.btn_add_book.Name = "btn_add_book";
             this.btn_add_book.Size = new System.Drawing.Size(994, 52);
             this.btn_add_book.TabIndex = 7;
@@ -448,7 +449,7 @@
             // 
             // btn_delete_book
             // 
-            this.btn_delete_book.Location = new System.Drawing.Point(1060, 660);
+            this.btn_delete_book.Location = new System.Drawing.Point(1060, 644);
             this.btn_delete_book.Name = "btn_delete_book";
             this.btn_delete_book.Size = new System.Drawing.Size(994, 52);
             this.btn_delete_book.TabIndex = 8;
@@ -458,7 +459,7 @@
             // 
             // btn_book_clear
             // 
-            this.btn_book_clear.Location = new System.Drawing.Point(1060, 733);
+            this.btn_book_clear.Location = new System.Drawing.Point(1060, 717);
             this.btn_book_clear.Name = "btn_book_clear";
             this.btn_book_clear.Size = new System.Drawing.Size(994, 52);
             this.btn_book_clear.TabIndex = 9;
@@ -468,7 +469,7 @@
             // 
             // btn_update_book
             // 
-            this.btn_update_book.Location = new System.Drawing.Point(1061, 806);
+            this.btn_update_book.Location = new System.Drawing.Point(1061, 790);
             this.btn_update_book.Name = "btn_update_book";
             this.btn_update_book.Size = new System.Drawing.Size(994, 52);
             this.btn_update_book.TabIndex = 10;
@@ -613,11 +614,22 @@
             this.txt_lang.Size = new System.Drawing.Size(325, 37);
             this.txt_lang.TabIndex = 6;
             // 
+            // btn_user_page_exit
+            // 
+            this.btn_user_page_exit.Location = new System.Drawing.Point(1898, 881);
+            this.btn_user_page_exit.Name = "btn_user_page_exit";
+            this.btn_user_page_exit.Size = new System.Drawing.Size(157, 63);
+            this.btn_user_page_exit.TabIndex = 11;
+            this.btn_user_page_exit.Text = "EXIT";
+            this.btn_user_page_exit.UseVisualStyleBackColor = true;
+            this.btn_user_page_exit.Click += new System.EventHandler(this.btn_user_page_exit_Click);
+            // 
             // AdminPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2146, 903);
+            this.ClientSize = new System.Drawing.Size(2152, 956);
+            this.Controls.Add(this.btn_user_page_exit);
             this.Controls.Add(this.btn_update_book);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.btn_book_clear);
@@ -710,5 +722,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn password;
         private System.Windows.Forms.DataGridViewTextBoxColumn authority;
         private System.Windows.Forms.TextBox txt_lang;
+        private System.Windows.Forms.Button btn_user_page_exit;
     }
 }
