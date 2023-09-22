@@ -156,5 +156,12 @@ namespace LibraryApplication
             txt_genre.Text = string.Empty;
             txt_amount.Text = string.Empty;
         }
+
+        private void btn_user_page_exit_Click(object sender, EventArgs e)
+        {
+            Form1 loginPage = new Form1();
+            loginPage.Show();
+            this.Hide();
+        }
     }
 }

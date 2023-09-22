@@ -10,3 +10,15 @@ C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication
 C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.exe
 C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.pdb
 C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.AdminPage.resources
+C:\Users\Eren\Desktop\Repos\LibraryApplication\bin\Release\LibraryApplication.exe.config
+C:\Users\Eren\Desktop\Repos\LibraryApplication\bin\Release\LibraryApplication.exe
+C:\Users\Eren\Desktop\Repos\LibraryApplication\bin\Release\LibraryApplication.pdb
+C:\Users\Eren\Desktop\Repos\LibraryApplication\obj\Release\LibraryApplication.csproj.AssemblyReference.cache
+C:\Users\Eren\Desktop\Repos\LibraryApplication\obj\Release\LibraryApplication.AdminPage.resources
+C:\Users\Eren\Desktop\Repos\LibraryApplication\obj\Release\LibraryApplication.Form1.resources
+C:\Users\Eren\Desktop\Repos\LibraryApplication\obj\Release\LibraryApplication.Properties.Resources.resources
+C:\Users\Eren\Desktop\Repos\LibraryApplication\obj\Release\LibraryApplication.UserPage.resources
+C:\Users\Eren\Desktop\Repos\LibraryApplication\obj\Release\LibraryApplication.csproj.GenerateResource.cache
+C:\Users\Eren\Desktop\Repos\LibraryApplication\obj\Release\LibraryApplication.csproj.CoreCompileInputs.cache
+C:\Users\Eren\Desktop\Repos\LibraryApplication\obj\Release\LibraryApplication.exe
+C:\Users\Eren\Desktop\Repos\LibraryApplication\obj\Release\LibraryApplication.pdb
