@@ -57,9 +57,9 @@ namespace LibraryApplication
                     this.Hide();
                     control = true;
 
-                } else if (username == item.getName() && password == item.getPassword() && item.getAuthority() == "user")
+                } else if (username.ToLower() == item.getName().ToLower() && password == item.getPassword() && item.getAuthority() == "user")
                 {
-                    UserPage userPage = new UserPage();
+                    UserPage userPage = new UserPage(Books);
                     userPage.Show();
                     this.Hide();
                     control = true;
