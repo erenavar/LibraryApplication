@@ -1,0 +1,12 @@
+C:\Users\eren\Desktop\Projects\LibraryApplication\bin\Release\LibraryApplication.exe.config
+C:\Users\eren\Desktop\Projects\LibraryApplication\bin\Release\LibraryApplication.exe
+C:\Users\eren\Desktop\Projects\LibraryApplication\bin\Release\LibraryApplication.pdb
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.csproj.AssemblyReference.cache
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.Form1.resources
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.Properties.Resources.resources
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.csproj.GenerateResource.cache
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.csproj.CoreCompileInputs.cache
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.exe
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.pdb
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Release\LibraryApplication.AdminPage.resources

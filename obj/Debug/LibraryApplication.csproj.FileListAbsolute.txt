@@ -9,3 +9,15 @@ C:\Users\eren\Desktop\LibraryApplication\obj\Debug\LibraryApplication.csproj.Gen
 C:\Users\eren\Desktop\LibraryApplication\obj\Debug\LibraryApplication.csproj.CoreCompileInputs.cache
 C:\Users\eren\Desktop\LibraryApplication\obj\Debug\LibraryApplication.exe
 C:\Users\eren\Desktop\LibraryApplication\obj\Debug\LibraryApplication.pdb
+C:\Users\eren\Desktop\Projects\LibraryApplication\bin\Debug\LibraryApplication.exe.config
+C:\Users\eren\Desktop\Projects\LibraryApplication\bin\Debug\LibraryApplication.exe
+C:\Users\eren\Desktop\Projects\LibraryApplication\bin\Debug\LibraryApplication.pdb
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Debug\LibraryApplication.csproj.AssemblyReference.cache
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Debug\LibraryApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Debug\LibraryApplication.Form1.resources
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Debug\LibraryApplication.Properties.Resources.resources
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Debug\LibraryApplication.csproj.GenerateResource.cache
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Debug\LibraryApplication.csproj.CoreCompileInputs.cache
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Debug\LibraryApplication.exe
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Debug\LibraryApplication.pdb
+C:\Users\eren\Desktop\Projects\LibraryApplication\obj\Debug\LibraryApplication.AdminPage.resources
